@@ -33,17 +33,9 @@ export default function Poster({ data, key }) {
             </span>
             <span>
               <span>
-                <FontAwesomeIcon
-                  icon={faCircle}
-                  style={{
-                    color: "white",
-                    fontSize: "0.5em",
-                    paddingBottom: "0.25em",
-                  }}
-                  className="ml-1"
-                />
+                <FontAwesomeIcon icon={faCircle} className="ml-1 fa-circle" />
               </span>
-              <span style={{ fontWeight: 400, color: "#ddd" }} className="ml-3">
+              <span className="ml-3 release-year">
                 Release Year : {data.release_date.split("-")[0]}
               </span>
             </span>
